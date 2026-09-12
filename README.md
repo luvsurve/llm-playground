@@ -6,7 +6,7 @@
 
 A CLI chatbot running on a **local LLM** (Ollama) — streaming replies, structured task extraction, and an in-session todo list. Phase 1 of my AI Engineering learning path. No API key, no cloud, no cost.
 
-> 📸 Demo screenshot/GIF coming — see [#todo].
+![demo](docs/demo.png)
 
 ## Features
 
@@ -68,7 +68,7 @@ you ──▶ CLI loop ──┬──▶ ollama.chat(stream=True) ──▶ tok
 
 - [ ] Write forced-JSON reliability notes (schema-strict vs loose prompt)
 - [ ] Add latency impression, local vs cloud
-- [ ] Add demo screenshot/GIF above
+- [x] Add demo screenshot/GIF above
 
 ## Docs in this repo
 
